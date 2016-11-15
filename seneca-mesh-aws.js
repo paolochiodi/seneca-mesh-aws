@@ -21,10 +21,10 @@ function senecaMeshAws (options) {
 
   const finder = new GetIp(awsOpts)
   finder.byTags(tags, function gotIps (err, ips) {
-    options.base = ips.map(addPort(DEFAULT_PORT))
+    options.bases = ips.map(addPort(DEFAULT_PORT))
     options.host = networkAddress()
 
-    if (options.isbase) {
+    if (options.base) {
       options.port = DEFAULT_PORT
     }
 
