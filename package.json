@@ -1,0 +1,14 @@
+{
+  "name": "seneca-mesh-aws",
+  "version": "1.0.0",
+  "description": "Seneca mesh for aws",
+  "main": "seneca-mesh-aws.js",
+  "scripts": {},
+  "author": "Paolo Chiodi (https://github.com/paolochiodi)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-get-ip": "git+https://github.com/paolochiodi/aws-get-ip.git",
+    "network-address": "^1.1.0",
+    "seneca-mesh": "^0.9.0"
+  }
+}
