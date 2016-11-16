@@ -1,6 +1,7 @@
 ![Seneca][Logo]
 
 # seneca-mesh-aws
+[![npm version][npm-badge]][npm-url]
 [![Gitter chat][gitter-badge]][gitter-url]
 
 - __Sponsor:__ [nearForm][Sponsor]
@@ -73,19 +74,13 @@ be it with documentation, examples, extra testing, or new features please get in
 
 
 ## License
-Copyright (c) 2013 - 2016, Richard Rodger and other contributors.
+Copyright (c) 2013 - 2016, Paolo Chiodi and other contributors.
 Licensed under [MIT][].
 
 [Sponsor]: http://nearform.com
 [Logo]: http://senecajs.org/files/assets/seneca-logo.png
 [npm-badge]: https://badge.fury.io/js/seneca-mesh-aws.svg
 [npm-url]: https://badge.fury.io/js/seneca-mesh-aws
-[travis-badge]: https://api.travis-ci.org/senecajs-labs/seneca-mesh-aws.svg
-[travis-url]: https://travis-ci.org/senecajs-labs/seneca-mesh-aws
-[coveralls-badge]:https://coveralls.io/repos/senecajs-labs/seneca-mesh-aws/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/github/senecajs-labs/seneca-mesh-aws?branch=master
-[david-badge]: https://david-dm.org/senecajs-labs/seneca-mesh-aws.svg
-[david-url]: https://david-dm.org/senecajs-labs/seneca-mesh-aws
 [gitter-badge]: https://badges.gitter.im/senecajs/seneca.png
 [gitter-url]: https://gitter.im/senecajs/seneca
 [MIT]: ./LICENSE
