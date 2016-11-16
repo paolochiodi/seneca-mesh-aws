@@ -9,7 +9,7 @@
 - __Seneca:__ 3.3
 
 
-This plugins makes using seneca-mesh on aws ec2 instances a little easier.
+This plugins makes using [seneca-mesh](https://github.com/senecajs/seneca-mesh) on aws ec2 instances a little easier.
 
 Becasue aws networking doesn't support multicast seneca-mesh can't discover peers automatically and thus needs a different strategy to detect and connect to other nodes.
 
