@@ -5,9 +5,19 @@
   "main": "seneca-mesh-aws.js",
   "scripts": {},
   "author": "Paolo Chiodi (https://github.com/paolochiodi)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolochiodi/seneca-mesh-aws"
+  },
+  "keywords": [
+    "aws",
+    "ip",
+    "seneca",
+    "mesh"
+  ],
   "license": "MIT",
   "dependencies": {
-    "aws-get-ip": "git+https://github.com/paolochiodi/aws-get-ip.git",
+    "aws-get-ip": "^1.0.0",
     "network-address": "^1.1.0",
     "seneca-mesh": "^0.9.0"
   }
