@@ -16,8 +16,8 @@ function senecaMeshAws (options) {
   const awsOpts = options.aws || {}
   const tags = options.baseTags || {mesh:'base'}
 
-  delete options.awsOpts
-  delete options.tags
+  delete options.aws
+  delete options.baseTags
 
   const finder = new GetIp(awsOpts)
   finder.byTags(tags, function gotIps (err, ips) {
